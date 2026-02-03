@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaBalance | Serverless Drug Efficacy Testing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="app-styles.css?v=2.0">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-flask-vial logo-icon"></i>
+            PharmaBalance
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Dashboard</a></li>
+            <li><a href="import.html" class="nav-link">Drug Import</a></li>
+            <li><a href="analysis.html" class="nav-link">Analysis</a></li>
+        </ul>
+        <div class="user-menu">
+            <div class="user-profile">
+                <i class="fa-solid fa-circle-user avatar-icon"></i>
+                Dr. Pharma
+            </div>
+            <button class="btn-logout">Logout</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Serverless Load Balancer for Multi-Drug Efficacy Testing</h1>
+        <p>Advanced pharmaceutical simulation platform using serverless architecture and Mass Balance optimization</p>
+        <a href="import.html" class="btn-primary-gradient">Start New Simulation</a>
+    </header>
+
+    <main class="dashboard-container">
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3 class="card-title">Mathematical Model</h3>
+                <div class="formula-display">
+                    <div class="formula-item">
+                        <h4>Effective Weight for Serverless Assignment</h4>
+                        <div class="formula-code">W<sub>i,d</sub> = w<sub>i</sub> × (I<sub>d</sub> / C<sub>d</sub>) ×
+                            MB<sub>k</sub></div>
+                    </div>
+                    <div class="formula-item">
+                        <h4>Routing Probability to Instance</h4>
+                        <div class="formula-code">P<sub>i,d</sub> = W<sub>i,d</sub> / Σ<sub>j=1</sub><sup>N</sup>
+                            W<sub>j,d</sub></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="card-title">Key Features</h3>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-bolt feature-icon"></i>
+                        <div>
+                            <h4>Serverless Architecture</h4>
+                            <p>AWS Lambda functions run simulations in parallel for maximum scalability.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-scale-balanced feature-icon"></i>
+                        <div>
+                            <h4>Smart Load Balancing</h4>
+                            <p>Distributes tasks based on complexity (C<sub>d</sub>) and priority (I<sub>d</sub>).</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-flask feature-icon"></i>
+                        <div>
+                            <h4>Mass Balance Scoring</h4>
+                            <p>Combines efficacy and side effects for high-accuracy results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="simple-footer">
+        <div class="footer-content">
+            <h3>Your All Time Drug Supporter</h3>
+            <p>Empowering pharmaceutical research with advanced serverless technology</p>
+        </div>
+    </footer>
+
+    <script src="auth-check.js"></script>
+</body>
+
+</html>
