@@ -39,8 +39,8 @@
 - **Protocol:** HTTPS REST API
 
 #### Infrastructure
-- **Hosting:** Vercel (optimized for Next.js)
-- **CDN:** Vercel Edge Network
+- **Hosting:** AWS Amplify
+- **CDN:** AWS Amplify
 - **Domain:** Custom domain or Vercel subdomain
 - **SSL:** Automatic HTTPS via Vercel
 - **Environment:** .env.local for secrets
@@ -780,3 +780,4 @@ console.log('Response:', response);
 ---
 
 This design specification ensures Code Mentor is built with scalability, maintainability, and user experience as top priorities while leveraging modern web technologies and AWS AI services.
+
