@@ -3,7 +3,7 @@
 ## Project Overview
  
 **Problem:** Developers spend hours waiting for code reviews, struggle with debugging errors, and lack instant access to coding guidance and best practices.  
-**Solution:** An AI-powered code review platform that provides instant, intelligent feedback on code quality, bugs, security issues, and best practices using **AWS Bedrock AI models**, accessible 24/7 from anywhere. Built with Next.js 14 and deployed on Vercel, leveraging AWS API Gateway for seamless AI integration.
+**Solution:** An AI-powered code review platform that provides instant, intelligent feedback on code quality, bugs, security issues, and best practices using **AWS Bedrock AI models**, accessible 24/7 from anywhere. Built with Next.js 14 and deployed on AWS Amplify, leveraging AWS API Gateway for seamless AI integration.
 
 ---
 
@@ -669,7 +669,7 @@
 
 ### External Services
 - AWS Bedrock (AI service)
-- Vercel (hosting platform)
+- AWS Amplify (hosting platform)
 - GitHub (version control)
 - Unsplash (images)
 
@@ -702,9 +702,10 @@
 **PWA:** Progressive Web App  
 **REST API:** Representational State Transfer API  
 **SSG:** Static Site Generation  
-**Vercel:** Cloud platform for frontend deployment  
+**AWS Amplify:** Cloud platform for frontend deployment  
 **WCAG:** Web Content Accessibility Guidelines  
 
 ---
 
 This requirements specification ensures Code Mentor delivers a high-quality, accessible, and impactful AI-powered code review platform that serves developers worldwide.
+
